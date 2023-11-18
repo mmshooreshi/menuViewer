@@ -23,8 +23,8 @@ export default {
 </script>
 <style scoped>
 div {
-  width: 50%;
-  height: 79vh;
+  width: 100vw;
+  height: 100vh;
   min-width: 400px;
 }
 </style>

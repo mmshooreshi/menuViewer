@@ -636,7 +636,8 @@ html[dir='rtl'] #sidebarContent {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   position: absolute;
-  top: 32px;
+  top: 0px;
+  /* top: 32px; */
   right: 0;
   bottom: 0;
   left: 0;
@@ -679,6 +680,7 @@ html[dir='rtl'] #outerContainer.sidebarOpen #viewerContainer:not(.pdfPresentatio
 }
 
 .toolbar {
+  display: none;
   position: relative;
   left: 0;
   right: 0;
